@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff1c1;
+}
+.nav{
+    width: 100vw;
+    height: 40vh;
+    background-color: #fff1c1;
+    display: flex;
+}
+.nav-left{
+    width: 20vw;
+    height: 30vh;
+    
+}
+.nav-logo img{
+    width: 216px;
+    height: 36px;
+    padding-top: 31px;
+    padding-left: 149px;
+
+}
+.nav-right{
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+   justify-content: right;
+   padding-right: 200px;
+   position: relative;
+
+}
+.nav-item{
+    display: flex;
+    gap : 40px;
+    padding-top: 41px;
+}
+.items{
+   font-size: 20px; 
+   font-family: sans-serif;
+}
+.nav-button button{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background: rgb(255,226,89);
+    background: radial-gradient(circle, rgba(255,226,89,1) 0%, rgba(255,167,81,1) 100%);  
+    border: none;
+    position: absolute;
+    top: 40px;
+    
+}
+.main{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+.main-left{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.main-left img{
+    width: 574px;
+    height: 574px;
+    display: flex;
+
+}
+.main-right{
+    position: relative;
+
+
+}
+.main-text{
+    
+    position: relative;
+    right: 1200px;
+    bottom: 250px;
+    
+}
+.text p{
+    padding-top: 20px;
+}
+.main-button button{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background: rgb(255,226,89);
+    background: radial-gradient(circle, rgba(255,226,89,1) 0%, rgba(255,167,81,1) 100%);  
+    border: none;
+    position: absolute;
+    color: white;
+    top: 200px;
+}
+
